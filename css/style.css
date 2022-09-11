@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    width: 1350px;
+    height: 700px;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 80px;
+    border: 2px solid #d6a2d7;
+}
+
+.content{
+    width: 510px;
+    height: 650px;
+    background-color: white;
+    float: left;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.img1
+{
+    width: 810px; 
+    padding-left: 20px;
+    background-color: white;
+    float: left;
+    margin-top: 10px;
+}
+
+.content-left-img
+{
+    width:100%;
+}
+
+.content-left-img img
+{
+    width: 70%;
+    height: 650px;
+    padding-right: 20px;
+    float: left;
+    margin-top: 15px;
+  
+
+}
+
+.content-left-img-small
+{
+    width: 30%;
+    float: left;
+    height: 650px;
+}
+
+.content-left-img-small img
+{
+    width: 100%;
+    padding-right: 10px;
+    height:200px;
+    margin-top: 20px;
+    border: 3px solid white;
+}
+
+.Namsp h1
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+.Namsp p
+{
+    color: rgb(112, 115, 117);
+    margin: 12px 0px;
+}
+
+.money
+{
+    margin: 12px 0px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.Sz
+{
+    margin-top: 12px;
+    font-size: 25px;
+    color: black;
+}
+
+.div span
+{
+    display: inline-block;
+    padding: 3px 6px;
+    border: 1px solid rgb(135, 127, 127);
+    margin: 12px 6px 12px 0px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.quanlity
+{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.quanlity input
+{
+    width: 50px;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+
+.buttoner
+{
+    padding-left: 30%;
+}
+
+.buttoner button
+{
+    width: 150px;
+    height: 40px;
+    display: block;
+    margin: 12px 0px 12px;
+}
+
+.buttoner button:first-child
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.buttoner button:first-child:hover
+{
+    background-color: pink;
+}
+
+.buttoner button:last-child
+{
+    border: 2px solid pink;
+    background-color: white;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttoner button:last-child:hover
+{
+    background-color: pink;
+}
+
+.read
+{
+    margin-top: 20px;
+}
+
+.read p
+{
+    font-size: 15px;
+}
+
+a
+{
+    color: pink;
+}
+
+.content-left-img-small img:hover
+{
+    border: 3px solid red;
+}
